@@ -1,3 +1,5 @@
+<div align="center">
+
 # DevProjects - Link shortener website
 
 This is an open source project from [DevProjects](http://www.codementor.io/projects). Feedback and questions are welcome!
@@ -15,3 +17,5 @@ Instructions for other developers on how to install and run your code on their l
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 Most open source projects use the MIT license. Feel free to choose whichever license you prefer.
+
+</div>
