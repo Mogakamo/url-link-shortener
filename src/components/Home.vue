@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+  <div>
+    <b-input-group prepend="link" append="copy">
+      <b-form-input></b-form-input>
+    </b-input-group>
+  </div>
 </template>
 
 <script>
