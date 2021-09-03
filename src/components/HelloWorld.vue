@@ -2,14 +2,14 @@
   <div class="input">
     <b-input-group>
     <template #prepend>
-      <b-input-group-text >link</b-input-group-text>
+      <b-input-group-text class="prepend">link</b-input-group-text>
     </template>
     <div class="form-input">
       <b-form-input ></b-form-input>
     </div>
     <template #append>
       <b-input-group-append>
-      <b-button variant="info">shorten</b-button>
+      <b-button variant="info" class="append text-white">shorten</b-button>
     </b-input-group-append>
     </template>
   </b-input-group>
@@ -34,12 +34,22 @@ export default {
     text-transform: uppercase;
     
   }
+  .text-white {
+    color: #fff;
+  }
   .form-input {
-    border-radius: 45%;
+    border-radius: 45px;
     padding-left: 10px;
     padding-right: 10px;  
     display: flex;
     flex-direction: column;
     width: 75%;
   }
+  .append {
+    border-radius: 50px;
+    background-color: rgb(56, 209, 36);
+  }
+  .prepend {
+    color: #000;
+    }
 </style>
